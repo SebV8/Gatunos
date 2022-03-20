@@ -83,13 +83,13 @@
       <!-- Pie carousel -->
       <div class="container">
         <div class="row foot">
-          <div class="col-4">
+          <div class="col-md-4">
             Contacto: +56953267932
           </div>
-          <div class="col-4" style="text-align: center;">
-            Rescate y adopcion de felinos callejeros
+          <div class="col-md-4" style="text-align: center;">
+            <p>Rescate y adopcion de felinos callejeros</p>
           </div>
-          <div class="col-4" style="text-align: end;">
+          <div class="col-md-4" style="text-align: end;">
             <div class="share">
               <a href="https://www.facebook.com" target="_blank" class="fab fa-facebook-f"></a>
               <a href="https://www.twitter.com" target="_blank" class="fab fa-twitter"></a>
@@ -103,7 +103,7 @@
     <!-- Quienes Somos -->
     <div class="container" id="somos">
       <div class="row">
-        <div class="col-6 my-4 rescate">
+        <div class="col-md-6 my-4 rescate">
           <h2>Rescate</h2>
           <h6>Etapa 1</h6>
             <p>Rescatamos gatos en situacion de peligro y/o abandono. <br> rehabilitamos y los preparamos para buscarles un mejor hogar</p>
@@ -161,37 +161,36 @@
             </div>
           </div>
         </div>
-        <!--=======================================================-->
       </div>
     </div>
 
     <!-- Registro de usuario -->
-    <div class="container registro" id="adopta">
+    <div class="container registro col-12 col-md-12" id="adopta">
       <form id="f1" name="f1">
         <h3 class="m-5">Registro de postulantes</h3>
-        <div class="row col-12">
-          <div class="m-5 col-3">
+        <div class="row">
+          <div class="m-5 col-7 col-md-3">
             <label for="exampleInputEmail1" class="form-label">Correo electronico</label>
             <input type="email" class="form-control" required id="exampleInputEmail1" placeholder="nombre@dominio.com" aria-describedby="emailHelp">
             <div id="emailHelp" class="form-text">No compartiremos esta informacion con nadie.</div>
           </div>  
-          <div class="m-5 col-3">
+          <div class="m-5 col-5 col-md-3">
             <label for="rut" class="form-label">Run</label>
             <input type="text" class="form-control" maxlength="10" placeholder="09999999-9" required id="rut" onkeyup="this.value=Numeros(this.value)">
           </div>
-          <div class="m-5 col-3">
+          <div class="m-5 col-6 col-md-3">
             <label for="nombre" class="form-label">Nombre completo:</label>
             <input type="text" class="form-control" required id="nombre" placeholder="Felipe Bastian San Martin" onkeyup="this.value=letras(this.value)">
           </div>
-          <div class="m-5 col-3">
+          <div class="m-5 col-7 col-md-3">
             <label for="nacimiento" class="form-label">Fecha de nacimiento</label>
             <input type="date" class="form-control" required id="nacimiento">
           </div>
-          <div class="m-5 col-3">
+          <div class="m-5 col-6 col-md-3">
             <label for="telefono" class="form-label">Numero de contacto</label>
             <input type="tel" class="form-control" id="telefono" placeholder="+569 53672283" maxlength="13" onkeyup="this.value=contacto(this.value)">
           </div>
-          <div class="col-3 m-5">
+          <div class="col-5 col-md-3 m-5">
             <label for="" class="my-2">Region</label>
             <select id="regiones" class="form-select" onchange="cambio_region()">
               <option value="0">Seleccione...</option>
@@ -211,14 +210,14 @@
               <option value="LosRios">Los Rios</option>
             </select>
           </div>    
-          <div class="col-3 m-5">
+          <div class="col-4 col-md-3 m-5">
             <label for="" class="my-2">Ciudad</label>
             <select class="form-select" id="ciudades" required aria-label="Default select example">
               <option value="0">     </option>
             </select>
           </div>
         </div>
-        <div class="col-3 m-5">
+        <div class="col-4 col-md-3 m-5">
           <label for="vivienda" class="my-2">Tipo de vivienda</label>
           <select class="form-select" required aria-label="Default select example">
             <option selected>Seleccione</option>
@@ -228,7 +227,7 @@
             <option value="4">Departamento</option>
           </select>
         </div>
-        <button type="submit" class="btn m-5 col-2 btn-primary">Submit</button>
+        <button type="submit" class="btn m-5 col-3 col-md-1 btn-primary">Submit</button>
       </form>
     </div>
 
