@@ -1,0 +1,71 @@
+.Navv{
+    background-color: #60ce81;
+}
+header{
+    background: rgb(68, 170, 68);
+}
+.carousel-item img{
+    max-height: 30rem;
+}
+.share a{
+    text-decoration: none;
+    color: black;
+    font-size: 1.5rem;
+    padding: 0rem 0.4rem;
+}
+.foot{
+    font-size: 1.2rem;
+    color: black;
+}
+.crowd{
+    font-size: 80%;
+}
+.crowd img{
+    max-width: 20rem;
+}
+.rescate{
+    align-items: flex-end;
+    text-align: end;
+}
+.rescate img{
+    max-width: 15rem;
+}
+.registro{
+    margin-top: 5rem;
+}
+form{
+    border: 2px solid black;
+}
+form .row{
+    display:block;
+}
+.registro{
+    background-image: url(img/back.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: aliceblue;
+}
+.sharefooter{
+    padding-top: 2rem;
+    font-size: 2rem;
+}
+.sharefooter a{
+    color: black;
+    text-decoration: none;
+}
+.linksfooter{
+    padding: 1rem;
+}
+.linksfooter a{
+    color: black;
+    text-decoration: none;
+    padding: .2rem;
+    margin: .5rem;
+    border-bottom: 2px solid rgb(22, 192, 64);
+}
+.credit span{
+    color: azure;
+}
+.credit{
+    margin-bottom: 1rem;
+}
