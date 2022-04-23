@@ -2,10 +2,16 @@
     background-color: #60ce81;
 }
 header{
-    background: rgb(68, 170, 68);
+    background: rgb(186, 200, 186);
 }
 .carousel-item img{
-    max-height: 30rem;
+    position: relative;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    top: 0;
+    background-position: center;
+    background-size: cover;    
 }
 .share a{
     text-decoration: none;
